@@ -1,0 +1,17 @@
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\bin\Debug\net9.0\DataLayer.deps.json
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\bin\Debug\net9.0\DataLayer.runtimeconfig.json
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\bin\Debug\net9.0\DataLayer.dll
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\bin\Debug\net9.0\DataLayer.pdb
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\bin\Debug\net9.0\BusinessLayer.dll
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\bin\Debug\net9.0\BusinessLayer.pdb
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfo.cs
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.csproj.Up2Date
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.dll
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\refint\DataLayer.dll
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.pdb
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.genruntimeconfig.cache
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\ref\DataLayer.dll

@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DADF4CE-59BD-41EA-9845-33D29D2AC87D}|KitchenPresentaion\\KitchenPresentaion.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\kitchenpresentaion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DADF4CE-59BD-41EA-9845-33D29D2AC87D}|KitchenPresentaion\\KitchenPresentaion.csproj|solutionrelative:kitchenpresentaion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\kitchentest\\testmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|solutionrelative:kitchentest\\testmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KitchenDb/True/SqlTable/dbo.Ingredients.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KitchenDb/True/SqlTable/dbo.Recipes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\kitchentest\\tagcontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|solutionrelative:kitchentest\\tagcontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\kitchentest\\recipecontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|solutionrelative:kitchentest\\recipecontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\kitchentest\\ingredientcontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|solutionrelative:kitchentest\\ingredientcontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\kitchentest\\categorycontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16CD27D3-ECEE-4806-A08F-AE76838405AB}|KitchenTest\\KitchenTest.csproj|solutionrelative:kitchentest\\categorycontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\tagcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\tagcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\recipecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\recipecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\kitchendbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\kitchendbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\kitchendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\kitchendbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\ingredientcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\ingredientcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\categorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\categorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\businesslayer\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\businesslayer\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\businesslayer\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\businesslayer\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6CCB674-DB9E-43C0-B381-6B44E3E73846}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|c:\\users\\yoana\\source\\repos\\kitchenrecipe\\datalayer\\migrations\\20250620131818_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EC2370-1FCE-460B-B0D7-AF62D09CCF11}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\migrations\\20250620131818_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Ingredients.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KitchenDb/True/SqlTable/dbo.Ingredients.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KitchenDb/True/SqlTable/dbo.Ingredients.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-20T22:00:24.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Recipes.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KitchenDb/True/SqlTable/dbo.Recipes.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KitchenDb/True/SqlTable/dbo.Recipes.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-20T21:35:22.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenPresentaion\\Program.cs",
+              "RelativeDocumentMoniker": "KitchenPresentaion\\Program.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenPresentaion\\Program.cs",
+              "RelativeToolTip": "KitchenPresentaion\\Program.cs",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAiwFIBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:29:31.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestManager.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\TestManager.cs",
+              "RelativeDocumentMoniker": "KitchenTest\\TestManager.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\TestManager.cs",
+              "RelativeToolTip": "KitchenTest\\TestManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:06:59.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryContextTest.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\CategoryContextTest.cs",
+              "RelativeDocumentMoniker": "KitchenTest\\CategoryContextTest.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\CategoryContextTest.cs",
+              "RelativeToolTip": "KitchenTest\\CategoryContextTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:03:19.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecipeContextTest.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\RecipeContextTest.cs",
+              "RelativeDocumentMoniker": "KitchenTest\\RecipeContextTest.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\RecipeContextTest.cs",
+              "RelativeToolTip": "KitchenTest\\RecipeContextTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:03:03.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TagContextTest.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\TagContextTest.cs",
+              "RelativeDocumentMoniker": "KitchenTest\\TagContextTest.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\TagContextTest.cs",
+              "RelativeToolTip": "KitchenTest\\TagContextTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:02:48.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IngredientContextTest.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\IngredientContextTest.cs",
+              "RelativeDocumentMoniker": "KitchenTest\\IngredientContextTest.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\KitchenTest\\IngredientContextTest.cs",
+              "RelativeToolTip": "KitchenTest\\IngredientContextTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:02:37.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDb.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\IDb.cs",
+              "RelativeDocumentMoniker": "DataLayer\\IDb.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\IDb.cs",
+              "RelativeToolTip": "DataLayer\\IDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:44:58.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecipeContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\RecipeContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\RecipeContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\RecipeContext.cs",
+              "RelativeToolTip": "DataLayer\\RecipeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:30:14.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IngredientContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\IngredientContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\IngredientContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\IngredientContext.cs",
+              "RelativeToolTip": "DataLayer\\IngredientContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:30:00.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TagContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\TagContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\TagContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\TagContext.cs",
+              "RelativeToolTip": "DataLayer\\TagContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:29:48.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\CategoryContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\CategoryContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\CategoryContext.cs",
+              "RelativeToolTip": "DataLayer\\CategoryContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:29:33.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250620131818_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\Migrations\\20250620131818_initial.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Migrations\\20250620131818_initial.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\Migrations\\20250620131818_initial.cs",
+              "RelativeToolTip": "DataLayer\\Migrations\\20250620131818_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:18:18.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KitchenDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\KitchenDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DataLayer\\KitchenDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\KitchenDbContextFactory.cs",
+              "RelativeToolTip": "DataLayer\\KitchenDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:13:18.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KitchenDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\KitchenDbContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\KitchenDbContext.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\DataLayer\\KitchenDbContext.cs",
+              "RelativeToolTip": "DataLayer\\KitchenDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:52:23.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Category.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Category.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Category.cs",
+              "RelativeToolTip": "BusinessLayer\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:28:15.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Recipe.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Recipe.cs",
+              "RelativeToolTip": "BusinessLayer\\Recipe.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:27:58.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Tag.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Tag.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Tag.cs",
+              "RelativeToolTip": "BusinessLayer\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:27:47.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Ingredient.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Ingredient.cs",
+              "ToolTip": "C:\\Users\\Yoana\\source\\repos\\KitchenRecipe\\BusinessLayer\\Ingredient.cs",
+              "RelativeToolTip": "BusinessLayer\\Ingredient.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:27:38.242Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -27,7 +27,7 @@ namespace BusinessLayer
         [ForeignKey("RecipeId")]
         public virtual Recipe Recipe { get; set; }
 
-        protected Ingredient() { }
+        public Ingredient() { }
 
         public Ingredient(string name, string quantity, int recipeId)
         {

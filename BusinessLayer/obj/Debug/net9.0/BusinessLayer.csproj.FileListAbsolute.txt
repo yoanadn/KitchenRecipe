@@ -12,3 +12,4 @@ C:\Users\Yoana\source\repos\KitchenRecipe\BusinessLayer\obj\Debug\net9.0\refint\
 C:\Users\Yoana\source\repos\KitchenRecipe\BusinessLayer\obj\Debug\net9.0\BusinessLayer.pdb
 C:\Users\Yoana\source\repos\KitchenRecipe\BusinessLayer\obj\Debug\net9.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\Yoana\source\repos\KitchenRecipe\BusinessLayer\obj\Debug\net9.0\ref\BusinessLayer.dll
+C:\Users\Yoana\source\repos\KitchenRecipe\BusinessLayer\obj\Debug\net9.0\BusinessLayer.sourcelink.json

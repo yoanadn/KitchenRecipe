@@ -19,7 +19,7 @@ namespace BusinessLayer
 
         public virtual ICollection<Recipe> Recipes { get; set; }
 
-        protected Category()
+        public Category()
         {
             Recipes = new List<Recipe>();
         }

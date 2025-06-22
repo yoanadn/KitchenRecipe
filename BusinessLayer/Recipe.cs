@@ -36,7 +36,7 @@ namespace BusinessLayer
 
         public virtual ICollection<Tag> Tags { get; set; }
 
-        protected Recipe()
+        public Recipe()
         {
             Ingredients = new List<Ingredient>();
             Tags = new List<Tag>();

@@ -15,3 +15,4 @@ C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\refint\Data
 C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.pdb
 C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.genruntimeconfig.cache
 C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\ref\DataLayer.dll
+C:\Users\Yoana\source\repos\KitchenRecipe\DataLayer\obj\Debug\net9.0\DataLayer.sourcelink.json

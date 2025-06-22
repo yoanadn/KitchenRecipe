@@ -19,7 +19,7 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Create_Ingredient_Success()
+        public void CreateIngredient()
         {
             using var context = GetContext();
             var ingredientContext = new IngredientContext(context);
@@ -30,7 +30,7 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Read_Ingredient_Success()
+        public void ReadIngredient()
         {
             using var context = GetContext();
             var ingredient = new Ingredient("Salt", "1 tsp", 1);
@@ -44,7 +44,26 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Delete_Ingredient_RemovesSuccessfully()
+        public void UpdateIngredient()
+        {
+            using var context = GetContext();
+            var ingredient = new Ingredient("Oil", "2 tbsp", 1);
+            context.Ingredients.Add(ingredient);
+            context.SaveChanges();
+
+            var ingredientContext = new IngredientContext(context);
+            ingredient.Name = "Olive Oil";
+            ingredient.Quantity = "3 tbsp";
+            ingredientContext.Update(ingredient);
+
+            var updated = context.Ingredients.First();
+            Assert.Equal("Olive Oil", updated.Name);
+            Assert.Equal("3 tbsp", updated.Quantity);
+        }
+
+
+        [Fact]
+        public void DeleteIngredient()
         {
             using var context = GetContext();
             var ingredient = new Ingredient("Sugar", "3 tbsp", 1);

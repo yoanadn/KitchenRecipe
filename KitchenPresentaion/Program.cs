@@ -280,14 +280,46 @@ namespace KitchenPresentation
                     case "1":
                         Console.Write("Name: ");
                         string name = Console.ReadLine();
+
                         Console.Write("Quantity: ");
                         string qty = Console.ReadLine();
-                        Console.Write("Recipe ID: ");
-                        int recipeId = int.Parse(Console.ReadLine());
-                        ingredientContext.Create(new Ingredient(name, qty, recipeId));
+
+                        var recipes = recipeContext.ReadAll()
+                            .OrderBy(r => r.Title)
+                            .Select((r, index) => new { DisplayId = index + 1, r })
+                            .ToList();
+
+                        if (recipes.Count == 0)
+                        {
+                            Console.WriteLine("No recipes available. Please add a recipe first.");
+                            Console.ReadKey();
+                            break;
+                        }
+
+                        Console.WriteLine("Available recipes:");
+                        foreach (var r in recipes)
+                            Console.WriteLine($"#{r.DisplayId}: {r.r.Title}");
+
+                        int selectedRecipeIndex = GetValidIndex(recipes.Count, "Choose recipe number: ");
+                        int selectedRecipeId = recipes.First(r => r.DisplayId == selectedRecipeIndex).r.Id;
+
+                        var existing = ingredientContext
+                            .ReadAll()
+                            .Any(i => i.Name == name && i.RecipeId == selectedRecipeId);
+
+                        if (existing)
+                        {
+                            Console.WriteLine("This ingredient already exists for the selected recipe.");
+                            Console.ReadKey();
+                            break;
+                        }
+
+                        ingredientContext.Create(new Ingredient(name, qty, selectedRecipeId));
                         Console.WriteLine("Added.");
                         Console.ReadKey();
                         break;
+
+
                     case "2":
                         var list = ingredientContext.ReadAll(true)
                             .OrderBy(i => i.Name)
@@ -296,12 +328,22 @@ namespace KitchenPresentation
                             Console.WriteLine($"#{i.DisplayId}: {i.i.Name} ({i.i.Quantity}) - Recipe: {i.i.Recipe?.Title}");
                         Console.ReadKey();
                         break;
-                    case "3": DeleteIngredient(); break;
-                    case "0": return;
-                    default: Console.WriteLine("Invalid."); Console.ReadKey(); break;
+
+                    case "3":
+                        DeleteIngredient();
+                        break;
+
+                    case "0":
+                        return;
+
+                    default:
+                        Console.WriteLine("Invalid.");
+                        Console.ReadKey();
+                        break;
                 }
             }
         }
+
 
         static void TagMenu()
         {

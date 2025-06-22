@@ -19,7 +19,7 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Create_Recipe_Works()
+        public void CreateRecipe()
         {
             using var context = GetContext();
             var recipeContext = new RecipeContext(context);
@@ -34,7 +34,7 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Read_Recipe_ReturnsCorrectRecipe()
+        public void ReadRecipe()
         {
             using var context = GetContext();
             var category = new Category("Test");
@@ -47,6 +47,42 @@ namespace KitchenTest
             var result = recipeContext.Read(recipe.Id);
 
             Assert.Equal("Salad", result.Title);
+        }
+
+        [Fact]
+        public void UpdateRecipe()
+        {
+            using var context = GetContext();
+            var category = new Category("Starter");
+            context.Categories.Add(category);
+            var recipe = new Recipe("Soup", "Heat", 10, 3, category.Id);
+            context.Recipes.Add(recipe);
+            context.SaveChanges();
+
+            var recipeContext = new RecipeContext(context);
+            recipe.Title = "Hot Soup";
+            recipe.PreparationTime = 12;
+            recipeContext.Update(recipe);
+
+            var updated = context.Recipes.First();
+            Assert.Equal("Hot Soup", updated.Title);
+            Assert.Equal(12, updated.PreparationTime);
+        }
+
+        [Fact]
+        public void DeleteRecipe()
+        {
+            using var context = GetContext();
+            var category = new Category("Temp");
+            context.Categories.Add(category);
+            var recipe = new Recipe("ToDelete", "Do this", 20, 4, category.Id);
+            context.Recipes.Add(recipe);
+            context.SaveChanges();
+
+            var recipeContext = new RecipeContext(context);
+            recipeContext.Delete(recipe.Id);
+
+            Assert.Empty(context.Recipes);
         }
     }
 }

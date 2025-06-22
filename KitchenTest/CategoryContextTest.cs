@@ -18,7 +18,7 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Create_Category_Works()
+        public void CreateCategory()
         {
             using var context = GetContext();
             var categoryContext = new CategoryContext(context);
@@ -29,7 +29,22 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Update_Category_ChangesName()
+        public void ReadCategory()
+        {
+            using var context = GetContext();
+            var category = new Category { Name = "Brunch" };
+            context.Categories.Add(category);
+            context.SaveChanges();
+
+            var categoryContext = new CategoryContext(context);
+            var result = categoryContext.Read(category.Id);
+
+            Assert.NotNull(result);
+            Assert.Equal("Brunch", result.Name);
+        }
+
+        [Fact]
+        public void UpdateCategory()
         {
             using var context = GetContext();
             var category = new Category("Old Name");
@@ -41,6 +56,20 @@ namespace KitchenTest
             categoryContext.Update(category);
 
             Assert.Equal("New Name", context.Categories.First().Name);
+        }
+
+        [Fact]
+        public void DeleteCategory()
+        {
+            using var context = GetContext();
+            var category = new Category { Name = "Temp" };
+            context.Categories.Add(category);
+            context.SaveChanges();
+
+            var categoryContext = new CategoryContext(context);
+            categoryContext.Delete(category.Id);
+
+            Assert.Empty(context.Categories);
         }
     }
 }

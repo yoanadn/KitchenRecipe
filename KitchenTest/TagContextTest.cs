@@ -18,7 +18,7 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Create_Tag_AddsCorrectly()
+        public void CreateTag()
         {
             using var context = GetContext();
             var tagContext = new TagContext(context);
@@ -29,7 +29,7 @@ namespace KitchenTest
         }
 
         [Fact]
-        public void Read_Tag_ReturnsCorrectTag()
+        public void ReadTag()
         {
             using var context = GetContext();
             var tag = new Tag("Spicy");
@@ -40,6 +40,36 @@ namespace KitchenTest
             var result = tagContext.Read(tag.Id);
 
             Assert.Equal("Spicy", result.Name);
+        }
+
+        [Fact]
+        public void UpdateTag()
+        {
+            using var context = GetContext();
+            var tag = new Tag("OldName");
+            context.Tags.Add(tag);
+            context.SaveChanges();
+
+            var tagContext = new TagContext(context);
+            tag.Name = "NewName";
+            tagContext.Update(tag);
+
+            var updated = context.Tags.First();
+            Assert.Equal("NewName", updated.Name);
+        }
+
+        [Fact]
+        public void DeleteTag()
+        {
+            using var context = GetContext();
+            var tag = new Tag("Temporary");
+            context.Tags.Add(tag);
+            context.SaveChanges();
+
+            var tagContext = new TagContext(context);
+            tagContext.Delete(tag.Id);
+
+            Assert.Empty(context.Tags);
         }
     }
 }
